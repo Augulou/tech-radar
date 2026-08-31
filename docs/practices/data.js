@@ -44,10 +44,10 @@ const dataRadar = {
         },
         {
             quadrant: 0,
-            ring: 0,
+            ring: 2,
             label: "Great Expectations",
             active: true,
-            moved: 0,
+            moved: -1,
         },
 
 
@@ -62,10 +62,10 @@ const dataRadar = {
         // Datalake
         {
             quadrant: 0,
-            ring: 1,
-            label: "Castor",
+            ring: 2,
+            label: "CastorDoc",
             active: true,
-            moved: 0,
+            moved: -1,
         },
 
 
@@ -95,10 +95,10 @@ const dataRadar = {
         },
         {
             quadrant: 0,
-            ring: 1,
+            ring: 2,
             label: "Data Galaxy",
             active: true,
-            moved: 0,
+            moved: -1,
         },
         {
             quadrant: 0,
@@ -110,14 +110,6 @@ const dataRadar = {
 
 
         // Datawarehouse
-        {
-            quadrant: 0,
-            ring: 0,
-            label: "Snowflake",
-            active: true,
-            moved: 0,
-        },
-      
         {
             quadrant: 0,
             ring: 2,
@@ -140,7 +132,7 @@ const dataRadar = {
         {
             quadrant: 0,
             ring: 0,
-            label: "Databriks",
+            label: "Databricks",
             active: true,
             moved: 0,
         },
@@ -153,8 +145,59 @@ const dataRadar = {
             moved: 1,
         },
 
+        // Data Quality & Observability (sondage 2025)
+        {
+            quadrant: 0,
+            ring: 0,
+            label: "Elementary",
+            active: true,
+            moved: 1,
+        },
+        {
+            quadrant: 0,
+            ring: 2,
+            label: "DataHub",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 0,
+            ring: 2,
+            label: "OpenLineage",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 0,
+            ring: 1,
+            label: "Deequ",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 0,
+            ring: 2,
+            label: "PagerDuty",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 0,
+            ring: 0,
+            label: "DataDog",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 0,
+            ring: 0,
+            label: "dbt docs",
+            active: true,
+            moved: 0,
+        },
 
-     
+
+
 
 
         // Quadrant 1 : Data Engineering     ========================
@@ -216,10 +259,10 @@ const dataRadar = {
         },
         {
             quadrant: 1,
-            ring: 0,
+            ring: 3,
             label: "Airbyte",
             active: true,
-            moved: 1,
+            moved: -1,
         },
         
         {
@@ -231,7 +274,7 @@ const dataRadar = {
         },
         {
             quadrant: 1,
-            ring: 1,
+            ring: 0,
             label: "DuckDB",
             active: true,
             moved: 1,
@@ -256,7 +299,7 @@ const dataRadar = {
             ring: 2,
             label: "Prefect",
             active: true,
-            moved: 1,
+            moved: 0,
         },
 
 
@@ -265,7 +308,7 @@ const dataRadar = {
             ring: 2,
             label: "Mage",
             active: true,
-            moved: 1,
+            moved: 0,
         },
         {
             quadrant: 1,
@@ -286,10 +329,10 @@ const dataRadar = {
         },
         {
             quadrant: 1,
-            ring: 3,
+            ring: 2,
             label: "Fivetran",
             active: true,
-            moved: 0,
+            moved: 1,
         },
         {
             quadrant: 1,
@@ -299,20 +342,87 @@ const dataRadar = {
             moved: 0,
         },
 
-        // DRE
-       
-     
+        // Catalog
+
+        // Ajouts sondage 2025
         {
             quadrant: 1,
-            ring: 2,
-            label: "Elementary",
+            ring: 0,
+            label: "Snowflake",
             active: true,
             moved: 0,
         },
-      
+        {
+            quadrant: 1,
+            ring: 1,
+            label: "SQLMesh",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 0,
+            label: "AWS",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 0,
+            label: "Azure",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 0,
+            label: "GCP",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 0,
+            label: "Polars",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 0,
+            label: "dlt",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 2,
+            label: "ClickHouse",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 2,
+            label: "SDF",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 1,
+            label: "Dagster",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 1,
+            ring: 0,
+            label: "IaC (Terraform)",
+            active: true,
+            moved: 0,
+        },
 
-        // Catalog
-       
         // Quadrant 2 : Data Science & MLOps ========================
 
          // 0 - ADOPT 
@@ -410,17 +520,17 @@ const dataRadar = {
         },
         {
             quadrant: 2,
-            ring: 2,
+            ring: 0,
             label: "LangChain",
             active: true,
-            moved: 0,
+            moved: 1,
         },
         {
             quadrant: 2,
-            ring: 1,
-            label: "Azure ML",
+            ring: 2,
+            label: "Azure AI Foundry",
             active: true,
-            moved: 0,
+            moved: -1,
         },
         /*
         {
@@ -435,15 +545,101 @@ const dataRadar = {
        
         {
             quadrant: 2,
-            ring: 1,
+            ring: 2,
             label: "Vertex AI",
+            active: true,
+            moved: -1,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "MLFlow",
+            active: true,
+            moved: 1,
+        },
+
+        // Ajouts sondage 2025
+        {
+            quadrant: 2,
+            ring: 2,
+            label: "Langflow",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 2,
+            label: "Langfuse",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 2,
+            label: "Langsmith",
             active: true,
             moved: 0,
         },
         {
             quadrant: 2,
             ring: 1,
-            label: "MLFlow",
+            label: "Zed/Cursor (PDD)",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "Cline/Copilot/Continue/etc.",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 1,
+            label: "CortexAI",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 3,
+            label: "SparkML",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "MCP, A2A",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "n8n",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "Dust",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "Claude Code",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 2,
+            ring: 0,
+            label: "Streamlit",
             active: true,
             moved: 0,
         },
@@ -465,10 +661,10 @@ const dataRadar = {
     
         {
             quadrant: 3,
-            ring: 0,
+            ring: 1,
             label: "Metabase",
             active: true,
-            moved: 0,
+            moved: -1,
         },
         {
             quadrant: 3,
@@ -493,10 +689,10 @@ const dataRadar = {
 
         {
             quadrant: 3,
-            ring: 1,
+            ring: 2,
             label: "Superset",
             active: true,
-            moved: 0,
+            moved: -1,
         },
 
         {
@@ -506,20 +702,13 @@ const dataRadar = {
             active: true,
             moved: 0,
         },
-        {
-            quadrant: 3,
-            ring: 1,
-            label: "SQLMesh",
-            active: true,
-            moved: 0,
-        },
 
         {
             quadrant: 3,
-            ring: 2,
+            ring: 0,
             label: "Tableau",
             active: true,
-            moved: 0,
+            moved: 1,
         },
         {
             quadrant: 3,
@@ -537,12 +726,35 @@ const dataRadar = {
         },
         {
             quadrant: 3,
-            ring: 2,
+            ring: 3,
             label: "Qlik",
+            active: true,
+            moved: -1,
+        },
+
+        // Ajouts sondage 2025
+        {
+            quadrant: 3,
+            ring: 0,
+            label: "Grafana",
             active: true,
             moved: 0,
         },
-        
+        {
+            quadrant: 3,
+            ring: 0,
+            label: "Looker",
+            active: true,
+            moved: 0,
+        },
+        {
+            quadrant: 3,
+            ring: 3,
+            label: "Kibana",
+            active: true,
+            moved: 0,
+        },
+
 
       
 
