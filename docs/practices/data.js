@@ -53,23 +53,7 @@ const dataRadar = {
         },
 
 
-       
-        {
-            quadrant: 0,
-            ring: 0,
-            label: "Big Query",
-            active: true,
-            moved: 0,
-        },
-        
-        {
-            quadrant: 0,
-            ring: 1,
-            label: "Azure Data Fabric",
-            active: true,
-            moved: 0,
-        },
-        
+
         {
             quadrant: 0,
             ring: 1,
@@ -83,16 +67,6 @@ const dataRadar = {
             label: "Data Galaxy",
             active: true,
             moved: -1,
-        },
-
-
-        // Datawarehouse
-        {
-            quadrant: 0,
-            ring: 2,
-            label: "Redshift Serverless",
-            active: true,
-            moved: 0,
         },
 
         // Dataplatform
