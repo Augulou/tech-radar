@@ -553,7 +553,7 @@ const dataRadar = {
         {
             quadrant: 2,
             ring: 0,
-            label: "MLFlow",
+            label: "MLflow",
             active: true,
             moved: 1,
         },
@@ -709,20 +709,6 @@ const dataRadar = {
             label: "Tableau",
             active: true,
             moved: 1,
-        },
-        {
-            quadrant: 3,
-            ring: 2,
-            label: "Thougthspot",
-            active: true,
-            moved: 0,
-        },
-        {
-            quadrant: 3,
-            ring: 2,
-            label: "Sisense",
-            active: true,
-            moved: 0,
         },
         {
             quadrant: 3,
