@@ -143,14 +143,7 @@ const dataRadar = {
 
         // Quadrant 1 : Data Engineering     ========================
 
-        // 0 ADOP 
-        {
-            quadrant: 1,
-            ring: 0,
-            label: "Flink",
-            active: true,
-            moved: 0,
-        },
+        // 0 ADOP
         {
             quadrant: 1,
             ring: 0,
